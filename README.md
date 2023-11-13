@@ -1,1 +1,1 @@
-# HR_Analytics_CaseStudy
+# HR Analytics in Power Bi (CASE STUDY)
