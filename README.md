@@ -45,7 +45,8 @@ InactiveEmployee = CALCULATE([TotalEmployees], DimEmployee[Attrition] = "Yes")
 ```ruby
 % Attrition Rate = [InactiveEmployee]/[TotalEmployees]
 ```
-### pic1
+![1](https://github.com/itsRAZAN/HR_Analytics_CaseStudy/assets/128379502/74b996de-cba6-46f1-9cfe-b10c6fd2e152)
+
 
 ### 2.3 Hiring trends over time
 We would like to start with analyzing 'Atlas Labs' hiring trends over time to see where they have had the biggest growth in employees.\
@@ -60,15 +61,19 @@ CALCULATE (
 
 Then we Create a stacked column chart to show TotalEmployees by Date and add attrition to the legend on the chart to see the split of employees by active vs inactive and Change the X-axis from continuous to Categorical. 
 
-### PIC2
+![2](https://github.com/itsRAZAN/HR_Analytics_CaseStudy/assets/128379502/b12969e8-e56e-4829-aa2b-0cfb01ac1488)
+
 
 ### 2.4 Analyzing departments and Job Roles
 The next step, we will look into the typical roles department managers are hiring into the organization. This will enable every department to plan for new hiring requests in the future.\
 To show ActiveEmployees by Department we Create a clustered bar chart 
-### PIC3 
+
+![3](https://github.com/itsRAZAN/HR_Analytics_CaseStudy/assets/128379502/dcfecd88-a6c6-4e0b-b9ed-4f95fe1df0ba)
+
 Then we add a treemap visualization to show Active employees by department and job role. 
 
-### PIC4
+
+![4](https://github.com/itsRAZAN/HR_Analytics_CaseStudy/assets/128379502/abf835dc-fbc9-4d99-b753-bf665ab5d46d)
 
 
 ### Keys Insights so far:
@@ -86,9 +91,10 @@ We know that the attrition rate for Atlas Labs is 16%. This opens up more questi
 Now that we have a good understanding of the general
 hiring trends, It's Important to look at the next layer of key HR metrics that focus on Diversity and Inclusion we will focus on employee age and gender .
 
-Below we create a card visuals that display  the minimum and maximum value of the employees age .
+Below we create a card visuals that display  the minimum and maximum value of the employees age.
 
-### pic 5
+![5](https://github.com/itsRAZAN/HR_Analytics_CaseStudy/assets/128379502/f50c0c03-cbc7-4746-9c38-ef4bb039c457)
+
 
 To take a closer look at the age distribution of employees we will create a conditional column called AgeBins that separates employees' ages by bins in the following structure: <\20, 20-29, 30-39, 40-49, 50>.
 
@@ -97,14 +103,16 @@ To take a closer look at the age distribution of employees we will create a cond
 ```
 To helps Us Identify patterns across the varlous age and Gender. we use 100% Stacked column chart as shown below.
 
-### pic 6
+![6](https://github.com/itsRAZAN/HR_Analytics_CaseStudy/assets/128379502/c84bba22-674c-4298-98d8-f7952535a659)
+
 
 We add a page level filter that enables us to look at the report page based on whether an employee is currently active or not.
 
 ### 3.2 Demographics: marital status and ethnicity
 Second, we will be looking at further employee information regarding marital status and ethnicity. We will visualize the count of all employees by marital status.
 
-### pic 7
+
+![7](https://github.com/itsRAZAN/HR_Analytics_CaseStudy/assets/128379502/a60585e8-18d4-4cd9-b700-fe8b2214c3d9)
 
 Next, we will create a new measure, AverageSalary which works out the average salary of all employees.
 
@@ -115,7 +123,8 @@ AverageSalary = AVERAGE(DimEmployee[Salary])
 Below is a visualization that displays the count
 of all employees and their average salary by Ethnicity.
 
-### pic 8
+![8](https://github.com/itsRAZAN/HR_Analytics_CaseStudy/assets/128379502/8ee02c05-8e6c-4222-b3b2-03c66e0897a9)
+
 
 ### 3.3 Performance Tracker 1
 
@@ -149,7 +158,8 @@ RETURN
     reviewOrHire + 365
 ```
 
-### pic 9
+![9](https://github.com/itsRAZAN/HR_Analytics_CaseStudy/assets/128379502/bb0c4d4f-ae56-4678-b39b-64f34833401e)
+
 
 ### 3.4 Performance Tracker 2
 
@@ -200,7 +210,7 @@ CALCULATE (
 )
 ```
 
-### pic10
+![10](https://github.com/itsRAZAN/HR_Analytics_CaseStudy/assets/128379502/39f86ddd-165a-4ab1-8f70-97305e8a9d95)
 
 ### More Insights uncovered:
 - Majority of employees are between 20-29 years.
@@ -223,7 +233,8 @@ our HireDate by create a measure on InactiveEmployees.
 InactiveEmployeesDate = CALCULATE([InactiveEmployee], USERELATIONSHIP(DimEmployee[HireDate], DimDate[Date]))
 ```
 
-### pic11
+![11](https://github.com/itsRAZAN/HR_Analytics_CaseStudy/assets/128379502/87e92761-5226-4b54-957f-908e12269fe1)
+
 
 ### 4.2 Other factors that impact attrition
 
@@ -233,8 +244,10 @@ The next visuallzations display:
 - % Attrition Rate by Travel Frequency
 - % Attrition Rate by Overtime Requirement
 - % Attrition Rate by Tenure (years working for Atlas Labs)
+ 
+![12](https://github.com/itsRAZAN/HR_Analytics_CaseStudy/assets/128379502/16f2d044-54c0-4ea6-8dae-43e29606a4e0)
 
-### pic12
+
 
 The Atlas Labs HR team can now easily
 navigate key metrics around the company
