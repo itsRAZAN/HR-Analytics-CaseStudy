@@ -256,3 +256,7 @@ make more informed decisions from
 measuring hiring to monitoring diversity and
 inclusion metrics, as well monitor employee
 performance and attrition.
+
+![DashBoard](https://github.com/itsRAZAN/HR_Analytics_CaseStudy/assets/128379502/5816a26e-ea63-421e-aa67-f6204befc827)
+
+
