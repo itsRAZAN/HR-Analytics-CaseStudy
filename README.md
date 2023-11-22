@@ -210,7 +210,8 @@ CALCULATE (
 )
 ```
 
-![10](https://github.com/itsRAZAN/HR_Analytics_CaseStudy/assets/128379502/39f86ddd-165a-4ab1-8f70-97305e8a9d95)
+![10](https://github.com/itsRAZAN/HR-Analytics-CaseStudy/assets/128379502/bec02b90-b4c4-485b-aa7d-00ae234483e2)
+
 
 ### More Insights uncovered:
 - Majority of employees are between 20-29 years.
