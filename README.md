@@ -216,7 +216,6 @@ CALCULATE (
 ### More Insights uncovered:
 - Majority of employees are between 20-29 years.
 - Atlas Labs employees 2.7% more women than men.
-- Employees who identify as Non Binary makeup 8.5% of total employees.
 - White have the highest average salary.
 - Mixed or multiple ethnic groups have one of the lowest average salaries.
 
